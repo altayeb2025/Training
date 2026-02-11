@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+  direction: rtl;
+}
+
+.sidebar {
+  width: 220px;
+  background: #343a40;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 20px 0;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  background: #f8f9fa;
+}
+
+.boxes {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.box {
+  background: skyblue;
+  padding: 20px;
+  border-radius: 18px;
+  width: 200px;
+  box-shadow: 0 0 5px blue;
+}
